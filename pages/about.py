@@ -1,6 +1,8 @@
 import streamlit as st
 
-with st.sidebar: # Optionally add a profile picture
+st.set_page_config("About Me | Portfolio", layout="wide")
+
+with st.sidebar:
     st.header("Akshat Bhatt")
     st.subheader("Web & Desktop Developer")
     st.markdown("---")

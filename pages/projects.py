@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Page Config
-st.set_page_config(page_title="My Projects", page_icon="🛠️", layout="wide")
+st.set_page_config(page_title="My Projects | Portfolio", layout="wide")
 
 with st.sidebar: # Optionally add a profile picture
     st.header("Akshat Bhatt")

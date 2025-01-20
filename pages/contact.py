@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.set_page_config("Contact | Portfolio", layout="centered")
+
 with st.sidebar:
     st.header("Akshat Bhatt")
     st.subheader("Web & Desktop Developer")
