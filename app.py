@@ -106,6 +106,8 @@ st.write("""
         I enjoy solving **technical challenges** and turning **ideas** into working solutions that meet real needs.
 """)
 
+st.image("assets/profile.JPG", caption="Akshat Bhatt", width=150, use_container_width=True)
+
 st.subheader("What I Can Do")
 
 col1, col2, col3 = st.columns(3)
