@@ -73,7 +73,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 with st.sidebar:
-    st.image("assets/profile.jpg", caption="Akshat Bhatt", width=120, use_container_width=True)
     st.subheader("Web & Desktop Developer")
     st.markdown("---")
     st.markdown("### Navigation")
@@ -90,9 +89,13 @@ with st.sidebar:
     st.markdown("### About Me")
     st.write("I am a passionate web and desktop developer skilled in Python, Java, and PHP. I enjoy building efficient software and solving complex problems.")
 
-st.markdown('<div class="header">Welcome to My Portfolio</div>', unsafe_allow_html=True)
-st.markdown('<div class="subheader">A passionate Web & Desktop Developer</div>', unsafe_allow_html=True)
-st.write("""
+col1, col2 = st.columns([1, 2])
+with col1:
+    st.image("assets/profile.jpg", caption="Akshat Bhatt", width=150, use_container_width=True)
+with col2:
+    st.markdown('<div class="header">Welcome to My Portfolio</div>', unsafe_allow_html=True)
+    st.markdown('<div class="subheader">A passionate Web & Desktop Developer</div>', unsafe_allow_html=True)
+    st.write("""
         As a **Web and Desktop Developer**, I build software that is both **efficient** and **user-friendly**. 
         With a strong foundation in **Python** and solid experience in **Java**, I’m able to create solutions across various platforms. 
         I am focused on building software that is **practical**, **efficient**, and easy for users to interact with. 
