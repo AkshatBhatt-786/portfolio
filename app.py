@@ -1,5 +1,5 @@
 import streamlit as st
-
+from PIL import Image
 # Page Config
 st.set_page_config(page_title="Akshat Bhatt Portfolio", layout="wide")
 
@@ -30,13 +30,6 @@ st.markdown("""
             animation: fadeIn 3s ease-in-out;
         }
         
-        .profile-pic {
-            border-radius: 50%;
-            width: 250px;
-            height: 250px;
-            object-fit: cover;
-        }
-
         /* Button animation */
         .btn {
             display: block;
@@ -80,7 +73,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 with st.sidebar:
-    st.header("Akshat Bhatt")
+    st.image("assets/profile.jpg", caption="Akshat Bhatt", width=120, use_container_width=True)
     st.subheader("Web & Desktop Developer")
     st.markdown("---")
     st.markdown("### Navigation")
@@ -105,8 +98,6 @@ st.write("""
         I am focused on building software that is **practical**, **efficient**, and easy for users to interact with. 
         I enjoy solving **technical challenges** and turning **ideas** into working solutions that meet real needs.
 """)
-
-st.image("assets/profile.JPG", caption="Akshat Bhatt", width=150, use_container_width=True)
 
 st.subheader("What I Can Do")
 
