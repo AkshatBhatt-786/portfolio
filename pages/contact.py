@@ -13,7 +13,7 @@ with st.sidebar:
     st.page_link("pages/contact.py", label="Contact Me", icon=":material/contact_page:")
     st.markdown("---")
     st.markdown("### Connect with me")
-    st.link_button("Linkedin", url="https://www.linkedin.com/in/akshat-bhatt-60a78a276", icon=":material/link:", use_container_width=True)
+    st.link_button("Linkedin", url="https://www.linkedin.com/in/akshatb786", icon=":material/link:", use_container_width=True)
     st.link_button("Github", url="https://github.com/AkshatBhatt-786", icon=":material/link:", use_container_width=True)
     st.link_button("Email", url="mailto:akshatbhatt0786@gmail.com", icon=":material/mail:", use_container_width=True)
     st.markdown("---")
@@ -31,7 +31,7 @@ st.write(
 st.markdown(
     """
     - 📧 Email: [akshatbhatt0786@gmail.com](mailto:akshatbhatt0786@gmail.com)  
-    - 🌐 LinkedIn: [Akshat Bhatt](https://www.linkedin.com/in/akshat-bhatt-60a78a276)  
+    - 🌐 LinkedIn: [Akshat Bhatt](https://www.linkedin.com/in/akshatb786)  
     - 🖥️ GitHub: [AkshatBhatt-786](https://github.com/AkshatBhatt-786)
     """,
     unsafe_allow_html=True
