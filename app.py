@@ -91,7 +91,7 @@ with st.sidebar:
 
 col1, col2 = st.columns([1, 2])
 with col1:
-    st.image("assets/profile.jpg", caption="Akshat Bhatt", width=150, use_container_width=True)
+    st.image("assets/profile.JPG", caption="Akshat Bhatt", width=150, use_container_width=True)
 with col2:
     st.markdown('<div class="header">Welcome to My Portfolio</div>', unsafe_allow_html=True)
     st.markdown('<div class="subheader">A passionate Web & Desktop Developer</div>', unsafe_allow_html=True)
